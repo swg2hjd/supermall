@@ -13,12 +13,12 @@
 <style scoped>
   #tab-bar {
     display: flex;
-      background-color: #bfa;
+      background-color: rgb(230, 227, 224);
       position: fixed;
       left: 0;
       right: 0;
       bottom: 0;
-      box-shadow: 0 -1px 1px rgba(34, 189, 29, 0.3);
+      box-shadow: 0 -1px 1px rgba(190, 196, 190, 0.3);
     
   }
 </style>

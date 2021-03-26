@@ -1,25 +1,25 @@
 <template>
   <div>
     <tab-bar>
-      <tab-bar-item path='/home' activeColor='blue'>
+      <tab-bar-item path='/home' activeColor='green'>
         <img src="@/assets/img/tabbar/home.png" alt="" slot="item-icon">
         <img src="@/assets/img/tabbar/home-active.png" alt="" slot="item-icon-active">
         <div slot="item-text">首页</div>
       </tab-bar-item>
 
-      <tab-bar-item path='/category' activeColor='blue'>
+      <tab-bar-item path='/category' activeColor='green'>
         <img src="@/assets/img/tabbar/fenlei.png" alt="" slot="item-icon">
         <img src="@/assets/img/tabbar/fenlei-active.png" alt="" slot="item-icon-active">
         <div slot="item-text">分类</div>
       </tab-bar-item>
 
-      <tab-bar-item path='/cart' activeColor='blue'>
+      <tab-bar-item path='/cart' activeColor='green'>
         <img src="@/assets/img/tabbar/gwc.png" alt="" slot="item-icon">
         <img src="@/assets/img/tabbar/gwc-active.png" alt="" slot="item-icon-active">
         <div slot="item-text">购物车</div>
       </tab-bar-item>
 
-      <tab-bar-item path='/me'>
+      <tab-bar-item path='/me' activeColor='green'>
         <img src="@/assets/img/tabbar/me.png" alt="" slot="item-icon">
         <img src="@/assets/img/tabbar/me-active.png" alt="" slot="item-icon-active">
         <div slot="item-text">我的</div>
