@@ -5,7 +5,6 @@
         <a :href="item.link">
            <img :src="item.image" alt="" />
         </a>
-       
       </swiper-item>
     </swiper>
   </div>
