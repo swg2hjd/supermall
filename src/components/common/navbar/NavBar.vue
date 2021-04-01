@@ -33,6 +33,5 @@ export default {};
 .center {
   flex: 1;
   /* background-color: red; */
- 
 }
 </style>

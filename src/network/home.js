@@ -1,8 +1,8 @@
 import {request} from "./request";
 
 export function getHomeMultidata() {
+  // 返回一个Promise对象
   return request({
-    // url: '/getImages'
     url:'/home/multidata'
   })
 }
