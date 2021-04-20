@@ -1,23 +1,16 @@
 <template>
   <div>
-    <el-row>
-      <el-col :span="8">
-        <div class="one">
-          <h1 class="el-icon-eleme">首页</h1>
-          <h1><i class="el-icon-eleme"></i>首页2</h1>
-        </div>
+    <el-row type="flex" justify="space-around">
+      <el-col :span="6">
+        <div class="one"><h1 class="el-icon-eleme">首页</h1></div>
       </el-col>
 
-      <el-col :span="8">
-        <div class="one">
-          <h1 class="el-icon-s-operation">分类</h1>
-        </div>
+      <el-col :span="6">
+        <div class="one"><h1 class="el-icon-s-operation">分类</h1></div>
       </el-col>
 
-      <el-col :span="8">
-        <div class="one">
-          <h1 class="el-icon-user-solid">个人中心</h1>
-        </div>
+      <el-col :span="6">
+        <div class="one"><h1 class="el-icon-user-solid">个人中心</h1></div>
       </el-col>
     </el-row>
 
@@ -76,29 +69,22 @@
 
       <el-col :span="6">
         <div class="two">
-          <el-row>
-            <el-col :span="12">
-              <div class="three"></div>
-            </el-col>
-            <el-col :span="12">
-              <div class="three"></div>
-            </el-col>
-          </el-row>
+          22
         </div>
       </el-col>
 
       <el-col :span="6">
-        <div class="two"></div>
+        <div class="two">33</div>
       </el-col>
 
       <el-col :span="6">
-        <div class="two"></div>
+        <div class="two">44</div>
       </el-col>
     </el-row>
 
     <el-row>
       <el-col :span="24">
-        <div class="foot"></div>
+        <div class="foot">foot</div>
       </el-col>
     </el-row>
   </div>
@@ -120,8 +106,8 @@ export default {
 .one {
   background-color: #bfa;
   text-align: center;
-  border-right: solid #409eff;
   height: 100px;
+  line-height: 100px;
 }
 
 .two {
@@ -140,6 +126,8 @@ h1 {
   width: 100%;
   height: 100px;
   background-color: #bfe;
+  line-height: 100px;
+  text-align: center;
 }
 
 .three {
